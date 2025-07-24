@@ -129,17 +129,3 @@ nav a {
   text-decoration: none;
   border-radius: 5px;
 }
-footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #eee;
-  margin-top: 20px;
-function scrollToSection(id) {
-  document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
-<h2>Featured Outfits</h2>
-
-<div class="gallery">
-  <img src="outfit1.jpg" alt="Outfit 1">
-  <img src="outfit2.jpg" alt="Outfit 2">
-  <img src="bike1.jpg" alt="Bike Look">
-</div>
